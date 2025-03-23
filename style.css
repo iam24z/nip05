@@ -1,0 +1,256 @@
+:root {
+    background-color: #060300;
+    font-family: myFont, sans-serif;;
+}
+
+
+
+
+
+
+
+
+
+/*BODY*/
+
+body {
+    min-height: 50rem;
+}
+
+
+
+
+
+
+
+
+/*FONT START*/
+
+@font-face {
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 100;
+    src:url(font/light.otf) format('opentype');
+    src:url(font/light.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: italic;
+    font-weight: 100;
+    src:url(font/light\ italic.otf) format('opentype');
+    src:url(font/light\ italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 200;
+    src:url(font/regular.otf) format('opentype');
+    src:url(font/regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: italic;
+    font-weight: 200;
+    src:url(font/regular\ italic.otf) format('opentype');
+    src:url(font/regular\ italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 300;
+    src:url(font/medium.otf) format('opentype');
+    src:url(font/medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: italic;
+    font-weight: 300;
+    src:url(font/medium\ italic.otf) format('opentype');
+    src:url(font/medium\ italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 400;
+    src:url(font/bold.otf) format('opentype');
+    src:url(font/bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: italic;
+    font-weight: 400;
+    src:url(font/bold\ italic.otf) format('opentype');
+    src:url(font/bold\ italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 500;
+    src:url(font/black.otf) format('opentype');
+    src:url(font/black.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'myFont';
+    font-style: italic;
+    font-weight: 500;
+    src:url(font/black\ italic.otf) format('opentype');
+    src:url(font/black\ italic.woff) format('woff');
+}
+
+/*FONT END*/
+
+
+
+
+
+
+
+
+
+/*-------------------------CONTENT START-------------------------*/
+
+#imageid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 8rem;
+
+    margin-top: 5rem;
+    height: auto;
+    
+    border-radius: 50%;
+}
+
+#nameid {
+    text-align: center;
+
+    padding: 2rem;
+
+    color: #ffdab6;
+    font-size: 1.25rem;
+}
+
+.linkclass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40rem;
+    
+    margin-bottom: 1.2rem;
+
+    border: 0.125rem #ffdab6 solid;
+    border-radius: 1.5rem;
+    padding: 0.5rem 0rem;
+
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #ffdab6;
+    
+    transition: color 0.25s;
+}
+
+a:hover {
+    color:#ffeedd;
+    border: 0.125rem #ffeedd solid;
+}
+
+a:active {
+    color: #ffdab6;
+    border: 0.125rem #ffdab6 solid;
+}
+
+/*-------------------------CONTENT END-------------------------*/
+
+
+
+
+
+
+
+
+
+/*                                   1280PX USAGE START                                    */
+
+@media only screen and (max-width: 1280px) {
+
+.linkclass {
+    width: 35rem;
+}
+
+}
+
+/*                                   1280PX USAGE END                                    */
+
+
+
+
+
+
+
+
+
+/*                                   1024PX USAGE START                                    */
+
+@media only screen and (max-width: 1024px) {
+
+.linkclass {
+    width: 30rem;
+}
+
+}
+
+/*                                   1024PX USAGE END                                    */
+
+
+
+
+
+
+
+
+
+/*                                   768PX USAGE START                                    */
+
+@media only screen and (max-width: 768px) {
+
+.linkclass {
+    width: 25rem;
+}
+
+}
+
+/*                                   768PX USAGE END                                    */
+
+
+
+
+
+
+
+
+
+/*                                   600PX USAGE START                                    */
+
+@media only screen and (max-width: 600px) {
+
+.linkclass {
+    width: 20rem;
+}
+
+}
+
+/*                                   600PX USAGE END                                    */
