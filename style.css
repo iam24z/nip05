@@ -135,7 +135,7 @@ body {
 
     padding: 2rem;
 
-    color: #ffdab6;
+    color: #e0c9a0;
     font-size: 1.25rem;
 }
 
@@ -148,7 +148,7 @@ body {
     
     margin-bottom: 1.2rem;
 
-    border: 0.125rem #ffdab6 solid;
+    border: 0.125rem #e0c9a0 solid;
     border-radius: 1.5rem;
     padding: 0.5rem 0rem;
 
@@ -158,7 +158,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffdab6;
+    color: #e0c9a0;
     
     transition: color 0.25s;
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 a:active {
-    color: #ffdab6;
+    color: #e0c9a0;
     border: 0.125rem #ffdab6 solid;
 }
 
