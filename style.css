@@ -1,5 +1,5 @@
 :root {
-    background-color: #00111f;
+    background-color: #000000;
     font-family: myFont, sans-serif;;
 }
 
@@ -135,7 +135,7 @@ body {
 
     padding: 2rem;
 
-    color: #e0c9a0;
+    color: #ac9e8a;
     font-size: 1.25rem;
 }
 
@@ -148,7 +148,7 @@ body {
     
     margin-bottom: 1.2rem;
 
-    border: 0.125rem #e0c9a0 solid;
+    border: 0.125rem #ac9e8a solid;
     border-radius: 1.5rem;
     padding: 0.5rem 0rem;
 
@@ -158,19 +158,19 @@ body {
 
 a {
     text-decoration: none;
-    color: #e0c9a0;
+    color: #ac9e8a;
     
     transition: color 0.25s;
 }
 
 a:hover {
-    color:#ffeedd;
-    border: 0.125rem #ffeedd solid;
+    color:#ffd2a4;
+    border: 0.125rem #ffd2a4 solid;
 }
 
 a:active {
-    color: #e0c9a0;
-    border: 0.125rem #ffdab6 solid;
+    color: #ffd2a4;
+    border: 0.125rem #ffd2a4 solid;
 }
 
 /*-------------------------CONTENT END-------------------------*/
