@@ -164,13 +164,13 @@ a {
 }
 
 a:hover {
-    color:#dec69f;
-    border: 0.125rem #dec69f solid;
+    color:#dfdfdf;
+    border: 0.125rem #0f0f0f solid;
 }
 
 a:active {
-    color: #dec69f;
-    border: 0.125rem #dec69f solid;
+    color: #dfdfdf;
+    border: 0.125rem #0f0f0f solid;
 }
 
 /*-------------------------CONTENT END-------------------------*/
