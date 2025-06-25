@@ -135,7 +135,7 @@ body {
 
     padding: 2rem;
 
-    color: #ac9e8a;
+    color: #ccb692;
     font-size: 1.25rem;
 }
 
@@ -148,7 +148,7 @@ body {
     
     margin-bottom: 1.2rem;
 
-    border: 0.125rem #ac9e8a solid;
+    border: 0.125rem #ccb692 solid;
     border-radius: 1.5rem;
     padding: 0.5rem 0rem;
 
@@ -158,19 +158,19 @@ body {
 
 a {
     text-decoration: none;
-    color: #ac9e8a;
+    color: #ccb692;
     
     transition: color 0.25s;
 }
 
 a:hover {
-    color:#ffd2a4;
-    border: 0.125rem #ffd2a4 solid;
+    color:#eed8b6;
+    border: 0.125rem #eed8b6 solid;
 }
 
 a:active {
-    color: #ffd2a4;
-    border: 0.125rem #ffd2a4 solid;
+    color: #eed8b6;
+    border: 0.125rem #eed8b6 solid;
 }
 
 /*-------------------------CONTENT END-------------------------*/
@@ -253,4 +253,4 @@ a:active {
 
 }
 
-/*                                   600PX USAGE END                                    */
+/*     
