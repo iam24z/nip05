@@ -1,5 +1,5 @@
 :root {
-    background-color: #000000;
+    background-color: #0f0f0f;
     font-family: myFont, sans-serif;;
 }
 
@@ -135,7 +135,7 @@ body {
 
     padding: 2rem;
 
-    color: #ccb692;
+    color: #dfdfdf;
     font-size: 1.25rem;
 }
 
@@ -148,7 +148,7 @@ body {
     
     margin-bottom: 1.2rem;
 
-    border: 0.125rem #ccb692 solid;
+    border: 0.125rem #979797 solid;
     border-radius: 1.5rem;
     padding: 0.5rem 0rem;
 
@@ -158,19 +158,19 @@ body {
 
 a {
     text-decoration: none;
-    color: #ccb692;
+    color: #dfdfdf;
     
     transition: color 0.25s;
 }
 
 a:hover {
-    color:#eed8b6;
-    border: 0.125rem #eed8b6 solid;
+    color:#dec69f;
+    border: 0.125rem #dec69f solid;
 }
 
 a:active {
-    color: #eed8b6;
-    border: 0.125rem #eed8b6 solid;
+    color: #dec69f;
+    border: 0.125rem #dec69f solid;
 }
 
 /*-------------------------CONTENT END-------------------------*/
@@ -253,4 +253,4 @@ a:active {
 
 }
 
-/*     
+/*                                   600PX USAGE END                                    */
